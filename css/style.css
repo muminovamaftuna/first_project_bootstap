@@ -1,0 +1,122 @@
+.carousel-inner{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 80px;
+}
+.text{
+    color: white;
+    margin-left: 200px; 
+    font-size: 40px;
+}
+.inf_text{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 5px double #311D0F;
+    padding: 5px;
+}
+  
+.inf_text:hover{
+    border-color: #926534;
+    border-style:inset;
+}
+img:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.city_block{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-item {
+    text-align: center;
+    display: inline-block;
+}
+
+.nav-item a {
+    border: 1px solid transparent;
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding: 13px;
+}
+
+
+nav {
+    background-color: #00183a4f;
+    width: 100%;
+    font-size: 15px;
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* footer */
+
+.dummy_page {
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 60px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    height: auto;
+}
+
+.footer .col {
+    width: 400px;
+    height: 250px;
+    margin-left: 100px;
+    float: left;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0px 20px 20px 20px;
+}
+
+.footer .col h1 {
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 17px;
+    padding: 20px 0px 5px 0px;
+    font-weight: normal;
+}
+
+.footer .col ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer .col ul li {
+    font-size: 14px;
+    font-family: inherit;
+    font-weight: bold;
+    padding: 5px 0px 5px 0px;
+    cursor: pointer;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+}
+
+.social ul li {
+    display: inline-block;
+    padding-right: 5px !important;
+}
+
+.clearfix {
+    clear: both;
+}
